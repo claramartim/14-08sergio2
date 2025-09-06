@@ -17,7 +17,7 @@ public class Venda {
     public Integer codigo;
 
     public LocalDateTime horaVenda;
-    public Integer valorT;
+    public Double valorT;
     public Integer quantT;
 
     @ManyToOne
